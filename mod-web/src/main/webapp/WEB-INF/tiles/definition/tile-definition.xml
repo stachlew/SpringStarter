@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <definition name="homePage" template="/WEB-INF/jsp/index.jsp">
+        <put-attribute name="title" value="Tytul Szablonu" />
+        <put-attribute name="headingGuest" value="/WEB-INF/tiles/template/headingGuest.jsp" />
+        <put-attribute name="headingUser" value="/WEB-INF/tiles/template/headingUser.jsp" />
+        <put-attribute name="menuUser" value="/WEB-INF/tiles/template/menuUser.jsp" />
+        <put-attribute name="content" value="/WEB-INF/tiles/template/content.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/tiles/template/footer.jsp" />
+    </definition>
+
+
+</tiles-definitions>
